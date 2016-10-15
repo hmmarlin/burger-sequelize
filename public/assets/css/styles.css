@@ -1,0 +1,75 @@
+body {
+	font-family: Helvetica, Arial;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.to-eat{
+	float: left;
+	overflow:auto;
+
+}
+.eaten{
+	background: yellow;
+	border: 2px white solid;
+	width: 300px;
+	float:left;
+	clear:left;
+	padding:5px;
+
+}
+.done-eat{
+	float:right;
+	clear:right;
+
+}
+img {
+	width: 300px;
+	display:block;
+	margin:auto;
+}
+
+.add-burg{
+	clear:both;
+}
+
+.header{
+	clear:both;
+}
+
+.not-eaten{
+	background: purple;
+	border: 2px white solid;
+	width: 300px;
+	float:right;
+	clear:both;
+	padding:5px;
+	color:white;
+	}
+
+.label {
+  font-weight: bold;
+}
+.add{
+	text-align: center;
+}
+
+.create-update-form {
+  background: blue;
+  margin: 5px;
+  padding: 5px;
+  color:white;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+button {
+	padding: 5px;
+	background:black;
+	color:white;
+	margin:5px;
+}
+h1{
+	text-align: center;
+}
